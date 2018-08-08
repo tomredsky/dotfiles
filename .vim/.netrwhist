@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/dpaikkos/live-06/webdriver/t'
+let g:netrw_dirhist_2='/home/dpaikkos/live-06/root/static/_inc/js'
+let g:netrw_dirhist_3='/home/dpaikkos/live-06/lib/SPL/View'
+let g:netrw_dirhist_4='/home/dpaikkos/live-06/root/reskin/html/faq'
+let g:netrw_dirhist_5='/home/dpaikkos/live-06/root/reskin/html'
+let g:netrw_dirhist_6='/home/dpaikkos/live-06/root/reskin/html/faq'
+let g:netrw_dirhist_7='/home/dpaikkos/live-06/root/reskin/html'
+let g:netrw_dirhist_8='/home/dpaikkos/live-06/root/reskin/html/faq'
+let g:netrw_dirhist_9='/home/dpaikkos/live-06/root/static/_inc/js'
