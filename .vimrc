@@ -1,10 +1,5 @@
 execute pathogen#infect()
 :filetype plugin indent on
-:set tabstop=4
-:set shiftwidth=4
-:set expandtab
-:syntax enable
-:set background=dark
 
 " A couple of simple templates
 if has("autocmd")
@@ -13,5 +8,11 @@ if has("autocmd")
               autocmd BufNewFile *.pl 0r ~/.vim/templates/skeleton.pl
       augroup END
 endif
+
 let g:Perl_AuthorName = 'Dermot Paikkos'
 :inoremap jj <Esc>
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
+:syntax enable
+:set background=dark
