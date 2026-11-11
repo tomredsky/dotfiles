@@ -16,3 +16,9 @@ let g:Perl_AuthorName = 'Dermot Paikkos'
 :set expandtab
 :syntax enable
 :set background=dark
+
+" Devel::Dwarn mapping
+nnoremap <space>d :-1read ~/.vim/templates/perl/dwarn.pl<CR>
+" Make cusor more noticable
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
