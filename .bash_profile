@@ -53,13 +53,18 @@ fi
 
 
 alias ce="carton exec -- "
-alias gf="git fetch --prune "
+alias gb="git branch "
+alias gf="git fetch --prune --all"
+alias go="git checkout "
 alias gs="git status"
 alias gd="git diff "
+alias glog='git log --oneline --graph'
 alias hisgrep='history | grep '
 alias perl=/opt/perl5/bin/perl
 alias ltr="ls -Altr"
 alias lt="ls -ltr"
+alias v="vim "
+
 
 
 PATH=/opt/perl5/bin:$PATH
